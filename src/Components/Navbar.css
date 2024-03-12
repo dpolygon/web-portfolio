@@ -9,6 +9,7 @@
     backdrop-filter: blur(12px);
     height: 80px;
     padding: 10px 0px;
+    z-index: 3;
 }
 
 .nav-item {

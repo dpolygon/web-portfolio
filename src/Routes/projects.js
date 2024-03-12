@@ -33,7 +33,7 @@ export default function Projects() {
           <ProjectCell
             text='Poké-weather'
             icon={BsFillCloudRainFill}
-            desc=''
+            desc="In its current state the app combines weather data retrieval with video display features. It uses the OpenWeatherMap API to fetch weather information based on the user's location, displaying the current weather condition in their city. Additionally, the app includes a video display feature, where it plays a video using OpenCV, showing a Pokemon that has the special power to transform his appearance to that of its surrounding weather."
             buttons={[
               {title: 'Repo', weblink: 'https://github.com/dpolygon/poke-weather'}
             ]}
