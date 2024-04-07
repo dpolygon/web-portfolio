@@ -3,6 +3,7 @@ import React from 'react'
 import { IoLogOutOutline } from "react-icons/io5";
 import { RiStarSmileFill } from "react-icons/ri";
 import { BsFillCloudRainFill } from "react-icons/bs";
+import { LuMessageSquareDashed } from "react-icons/lu";
 
 
 import './projects.css'
@@ -37,6 +38,16 @@ export default function Projects() {
             buttons={[
               {title: 'Repo', weblink: 'https://github.com/dpolygon/poke-weather'}
             ]}
+            projgif='/websitegifs/pokeweather.gif'
+          />
+          <ProjectCell
+            text='Cli-Me'
+            icon={LuMessageSquareDashed}
+            desc="Cli Me is a command-line interface messenger that excels in facilitating real-time communication. Through its adept use of socket programming, Cli Me establishes a robust network connection, enabling seamless message exchange. Leveraging threading, the application efficiently manages keyboard input and timeouts, ensuring uninterrupted user interaction. This threading capability allows Cli Me to handle large loads of traffic, making it suitable for the busiest chat rooms where fun chatting is in full swing. Meticulous message encoding and decoding mechanisms guarantee the delivery of messages with clarity and accuracy across various platforms. With effective session management, users can personalize their experience by choosing their own usernames, enhancing recognition among friends. Cli Me navigates complex communication scenarios with sophistication and reliability, supported by its meticulous error handling capabilities that ensure graceful management of unforeseen circumstances, thereby maintaining operational integrity."
+            buttons={[
+              {title: 'Repo', weblink: 'https://github.com/dpolygon/climessaging'}
+            ]}
+            projgif='/websitegifs/Cli-Me.gif'
           />
         </div>
       </div>
@@ -50,6 +61,7 @@ const ProjectCell = (props) => {
       style={{
         background: 'black',
         borderRadius: '20px',
+        marginBottom: '40px'
       }}
     >
       <div style={{padding: '5%'}}>
