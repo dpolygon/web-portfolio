@@ -1,15 +1,16 @@
 import React from 'react'
-
+import Socials from '../Components/Socials'
 import './home.css'
 
 export default function Home() {
   return (
-    <div style={{backgroundImage: "url('/homebg.gif')"}} className='Home'>
+    <div style={{backgroundImage: "url('homebg.jpg')"}} className='Home'>
       <div style={{padding: '3%'}}>
         <div className='home-intro'>
           <div>
             <div className='my-name'>Daniel<br></br>Gonzalez</div>
             <div className='my-description'>💻 Computer Science Graduate from the University of Texas at Austin 🐄🤘</div>
+            <Socials/>
           </div>
           <img src='/2023pic.jpg' style={{height: '300px', width: '300px', borderRadius: '50%'}} className='my-picture'></img>
         </div>
@@ -32,28 +33,6 @@ export default function Home() {
             <p>Mobile: <a>+1 (512) 917-5055</a></p>
           </div>
         </div>
-
-        <div style={{position: 'fixed', bottom: '3%', right: '2%'}}>
-            <a href="mailto:gonzalezdannyut22@utexas.edu">
-                <img src="websiteIcons/emaillogo.png" alt="email logo" className='outside-links'/>
-            </a>
-            <a href="https://www.github.com/dpolygon">
-                <img src="websiteIcons/githublogo.png" alt="github logo" className='outside-links'/>
-            </a>
-            <a href="www.instagram.com/texas_techbro">
-                <img src="websiteIcons/instalogo.png" alt="instagram logo" className='outside-links'/>
-            </a>
-            <a href="https://www.linkedin.com/in/danielgonzalezswen">
-                <img src="websiteIcons/linkedlnlogo.png" alt="linkedIn logo" className='outside-links'/>
-            </a>
-            <a href="https://twitter.com/l0nestardev">
-                <img src="websiteIcons/twitlogo.png" alt="twitter logo" className='outside-links'/>
-            </a>
-            <a href="https://youtube.com/channel/UCx-3SsVE_fVC7WBaTV933pQ">
-                <img src="websiteIcons/youtubelogo.png" alt="youtube logo" className='outside-links'/>
-            </a>
-        </div>
-
       </div>
     </div>
   )

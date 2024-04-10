@@ -10,7 +10,7 @@ import './projects.css'
 
 export default function Projects() {
   return (
-    <div style={{backgroundImage: 'url("/projectsbg.jpg")'}} className='projects'>
+    <div style={{backgroundImage: 'url("projectsbg.jpg")'}} className='projects'>
       <div style={{padding: '3%'}}>
         <h1 style={{fontSize: '3rem'}}>Professional Work</h1>
         <div className='professional-work'>
@@ -25,7 +25,7 @@ export default function Projects() {
             { title: "BACKEND",  weblink: 'https://github.com/dpolygon/risingstar-backend'},
             { icon: IoLogOutOutline, weblink: 'https://risingstarsaustin.com'}
           ]}
-          projgif='/websitegifs/risingstars.gif'
+          projgif='websitegifs/risingstars.gif'
         />
       </div>
 
@@ -38,7 +38,7 @@ export default function Projects() {
             buttons={[
               {title: 'Repo', weblink: 'https://github.com/dpolygon/poke-weather'}
             ]}
-            projgif='/websitegifs/pokeweather.gif'
+            projgif='websitegifs/pokeweather.gif'
           />
           <ProjectCell
             text='Cli-Me'
@@ -47,7 +47,7 @@ export default function Projects() {
             buttons={[
               {title: 'Repo', weblink: 'https://github.com/dpolygon/climessaging'}
             ]}
-            projgif='/websitegifs/Cli-Me.gif'
+            projgif='websitegifs/Cli-Me.gif'
           />
         </div>
       </div>

@@ -41,11 +41,6 @@
     flex-direction: row;
 }
 
-.outside-links {
-    height: 50px;
-    width: 50px;
-}
-
 @media screen and (max-width: 800px) {
     .home-intro {
         flex-direction: column-reverse;
