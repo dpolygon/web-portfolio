@@ -40,10 +40,10 @@ export default function Home() {
             <a href="https://www.github.com/dpolygon">
                 <img src="websiteIcons/githublogo.png" alt="github logo" className='outside-links'/>
             </a>
-            <a href="https://www.instagram.com/texas_techbro">
+            <a href="www.instagram.com/texas_techbro">
                 <img src="websiteIcons/instalogo.png" alt="instagram logo" className='outside-links'/>
             </a>
-            <a href="www.linkedin.com/in/danielgonzalezswen">
+            <a href="https://www.linkedin.com/in/danielgonzalezswen">
                 <img src="websiteIcons/linkedlnlogo.png" alt="linkedIn logo" className='outside-links'/>
             </a>
             <a href="https://twitter.com/l0nestardev">
