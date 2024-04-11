@@ -12,7 +12,7 @@ export default function Socials() {
             <a href="https://www.github.com/dpolygon">
                 <img src="websiteIcons/githublogo.png" alt="github logo" className='outside-links'/>
             </a>
-            <a href="www.instagram.com/texas_techbro">
+            <a href="https://www.instagram.com/texas_techbro">
                 <img src="websiteIcons/instalogo.png" alt="instagram logo" className='outside-links'/>
             </a>
             <a href="https://www.linkedin.com/in/danielgonzalezswen">

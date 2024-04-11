@@ -4,7 +4,7 @@ import './home.css'
 
 export default function Home() {
   return (
-    <div style={{backgroundImage: "url('homebg.jpg')"}} className='Home'>
+    <div style={{backgroundImage: "url('homebg.jpg')", backgroundPosition: 'center'}} className='Home'>
       <div style={{padding: '3%'}}>
         <div className='home-intro'>
           <div>
@@ -17,7 +17,7 @@ export default function Home() {
 
         <div style={{marginTop: '60px', padding: '20px'}}>
           <h1 className='home-section-title'>About Me</h1>
-          <p className='home-section-desc'>Born and raised Austin, Texas native. Proud Mexican American. UTCS Graduate with 4 years of coding experience. Highly committed to knowledge acquisition, growth, and quality contribution. Actively seeking full time positions and internships to further develop and mature my skills. Interested in gaining real-world experience.</p>
+          <p className='home-section-desc'>Born and raised Austin, Texas native. Proud Mexican American. UTCS Graduate with 4 years of coding experience. Highly committed to knowledge acquisition, growth, and quality contribution. Actively seeking full time positions and internships to further develop and mature my skills.</p>
           
           <h1 className='home-section-title'>What Im Listening To</h1>
           <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" style={{width: '100%', maxWidth: '880px', height: '450px', overflow: 'hidden', borderRadius: '10px', border: 'none'}} sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/heaven-knows/1710637196"></iframe>

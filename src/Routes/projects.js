@@ -17,13 +17,13 @@ export default function Projects() {
         <ProjectCell 
           text='Rising Stars Website'
           icon={RiStarSmileFill}
-          desc="I created a website for Rising Stars, focusing on a user-friendly design and streamlined enrollment processes. The frontend was developed using React JS, HTML, JavaScript, and CSS, ensuring a visually appealing and functional site.
+          desc="I created a website for a Daycare Center located in south Austin. Focusing on a user-friendly design and streamlined enrollment processes. The frontend was developed using React JS, HTML, JavaScript, and CSS, ensuring a visually appealing and functional site.
                 For the backend, I utilized Flask and Python, integrating various APIs to enhance functionality. This included pulling in map data and reviews from Yelp, as well as creating custom APIs to handle mail using SMTP and SSL for secure communication.
                 To host the site, I utilized Google Cloud Platform, specifically using Cloud Run, Cloud Functions, and Cloud Tasks. These tools helped optimize site performance and improve the enrollment process, ultimately benefiting Rising Stars' business."
           buttons={[
             { title: "FRONTEND", weblink: 'https://github.com/dpolygon/risingstars'},
             { title: "BACKEND",  weblink: 'https://github.com/dpolygon/risingstar-backend'},
-            { icon: IoLogOutOutline, weblink: 'https://risingstarsaustin.com'}
+            { title: "Website", weblink: 'https://risingstarsaustin.com'}
           ]}
           projgif='websitegifs/risingstars.gif'
         />
