@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { GiCardPick } from "react-icons/gi";
 import { IoLogOutOutline } from "react-icons/io5";
 import { RiStarSmileFill } from "react-icons/ri";
 import { BsFillCloudRainFill } from "react-icons/bs";
@@ -14,27 +15,40 @@ export default function Projects() {
       <div style={{padding: '3%'}}>
         <h1 style={{fontSize: '3rem'}}>Professional Work</h1>
         <div className='professional-work'>
-        <ProjectCell 
-          text='Rising Stars Website'
-          icon={RiStarSmileFill}
-          desc="I created a website for a Daycare Center located in south Austin. Focusing on a user-friendly design and streamlined enrollment processes. The frontend was developed using React JS, HTML, JavaScript, and CSS, ensuring a visually appealing and functional site.
-                For the backend, I utilized Flask and Python, integrating various APIs to enhance functionality. This included pulling in map data and reviews from Yelp, as well as creating custom APIs to handle mail using SMTP and SSL for secure communication.
-                To host the site, I utilized Google Cloud Platform, specifically using Cloud Run, Cloud Functions, and Cloud Tasks. These tools helped optimize site performance and improve the enrollment process, ultimately benefiting Rising Stars' business."
-          buttons={[
-            { title: "FRONTEND", weblink: 'https://github.com/dpolygon/risingstars'},
-            { title: "BACKEND",  weblink: 'https://github.com/dpolygon/risingstar-backend'},
-            { title: "Website", weblink: 'https://risingstarsaustin.com'}
-          ]}
-          projgif='websitegifs/risingstars.gif'
-        />
-      </div>
+          <ProjectCell 
+            text='Rising Stars Website'
+            icon={RiStarSmileFill}
+            desc="I created a website for a Daycare Center located in south Austin. I focused on creating a user-friendly design and a streamlined enrollment process. The frontend was developed using React JS, HTML, JavaScript, and CSS. This ensured a visually appealing and functional site.
+                  For the backend, I utilized Flask and Python, integrating various APIs to enhance functionality. This included pulling in map data and reviews from Yelp, as well as creating custom APIs to securely handle mail using SMTP and SSL.
+                  To host the site, I used Google Cloud Platform. I specifically utilized Cloud Run, Cloud Functions, and Cloud Tasks. These tools helped optimize site performance and improve the enrollment process, ultimately benefiting Rising Stars' business."
+            buttons={[
+              { title: "Frontend", weblink: 'https://github.com/dpolygon/risingstars'},
+              { title: "Backend",  weblink: 'https://github.com/dpolygon/risingstar-backend'},
+              { title: "Website", weblink: 'https://risingstarsaustin.com'}
+            ]}
+            projgif='websitegifs/risingstars.gif'
+          />
+        </div>
 
-      <h1 style={{marginTop: '5rem', fontSize: '3rem'}}>Personal Projects</h1>
+        <h1 style={{marginTop: '5rem', fontSize: '3rem'}}>Current Projects</h1>
+        <div className='personal-projects'>
+          <ProjectCell
+            text='Memorize'
+            icon={GiCardPick}
+            desc='A Swift and SwiftUI implementation of the card memorization game, "Concentration". The current version has working themes, a score counter and simple animations. Keep up to date with my current projects through my github!'
+            buttons={[
+              {title: "Repo", weblink: 'https://github.com/dpolygon/Memorize'}
+            ]}
+            projgif='websitegifs/memorize.gif'
+          />
+        </div>
+
+        <h1 style={{marginTop: '5rem', fontSize: '3rem'}}>Personal Projects</h1>
         <div className='personal-projects'>
           <ProjectCell
             text='Poké-weather'
             icon={BsFillCloudRainFill}
-            desc="In its current state the app combines weather data retrieval with video display features. It uses the OpenWeatherMap API to fetch weather information based on the user's location, displaying the current weather condition in their city. Additionally, the app includes a video display feature, where it plays a video using OpenCV, showing a Pokemon that has the special power to transform his appearance to that of its surrounding weather."
+            desc="In its current state the app combines weather data retrieval with video display features. It uses the OpenWeatherMap API to fetch weather information based on the user's location. Poké-weather displays the current weather conditions in the users city. With OpenCV the video display feature shows a Pokemon that has the special power to transform its appearance to match surrounding weather conditions."
             buttons={[
               {title: 'Repo', weblink: 'https://github.com/dpolygon/poke-weather'}
             ]}
@@ -43,7 +57,7 @@ export default function Projects() {
           <ProjectCell
             text='Cli-Me'
             icon={LuMessageSquareDashed}
-            desc="Cli Me is a command-line interface messenger that excels in facilitating real-time communication. Through its adept use of socket programming, Cli Me establishes a robust network connection, enabling seamless message exchange. Leveraging threading, the application efficiently manages keyboard input and timeouts, ensuring uninterrupted user interaction. This threading capability allows Cli Me to handle large loads of traffic, making it suitable for the busiest chat rooms where fun chatting is in full swing. Meticulous message encoding and decoding mechanisms guarantee the delivery of messages with clarity and accuracy across various platforms. With effective session management, users can personalize their experience by choosing their own usernames, enhancing recognition among friends. Cli Me navigates complex communication scenarios with sophistication and reliability, supported by its meticulous error handling capabilities that ensure graceful management of unforeseen circumstances, thereby maintaining operational integrity."
+            desc="Cli-Me is a command-line interface messenger that excels in facilitating real-time communication. Through its adept use of socket programming, Cli-Me establishes a robust network connection, enabling seamless message exchange. The application leverages threading, to efficiently manage keyboard input, which ensures uninterrupted user interaction. This threading capability allows Cli-Me to handle large loads of traffic, making it suitable for the busiest chat rooms. Meticulous message encoding and decoding mechanisms guarantee the delivery of messages with clarity and accuracy across various platforms. With effective session management, users can personalize their experience by choosing customized usernames, to enhance recognition amongst friends. Cli-Me maintains operational integrity with its error handling capabilities. This helps it navigate complex communications scenarios with grace and reliability. Some examples can include duplicate credentials, packet loss and unexpected disconnections."
             buttons={[
               {title: 'Repo', weblink: 'https://github.com/dpolygon/climessaging'}
             ]}

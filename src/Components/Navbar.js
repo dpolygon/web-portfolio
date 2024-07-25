@@ -12,7 +12,7 @@ export default function Navbar() {
         <NavLink to='/projects' className='nav-item'>
             Projects
         </NavLink>
-        <a className='nav-item' href='/Resume.pdf'>
+        <a className='nav-item' href='/DanielGonzalez_Resume.pdf'>
             Resume
         </a>
     </nav>
