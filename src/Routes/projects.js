@@ -48,7 +48,7 @@ export default function Projects() {
         <ProjectCell
             text='Cli-Me'
             icon={LuMessageSquareDashed}
-            desc="Cli-Me is a command-line interface messenger that excels in facilitating real-time communication. Through its adept use of socket programming, Cli-Me establishes a robust network connection, enabling seamless message exchange. The application leverages threading, to efficiently manage keyboard input, which ensures uninterrupted user interaction. This threading capability allows Cli-Me to handle large loads of traffic, making it suitable for the busiest chat rooms. Meticulous message encoding and decoding mechanisms guarantee the delivery of messages with clarity and accuracy across various platforms. With effective session management, users can personalize their experience by choosing customized usernames, to enhance recognition amongst friends. Cli-Me maintains operational integrity with its error handling capabilities. This helps it navigate complex communications scenarios with grace and reliability. Some examples can include duplicate credentials, packet loss and unexpected disconnections."
+            desc="Cli-Me is a command-line interface messenger that excels in facilitating real-time communications. Through its adept use of socket programming, Cli-Me establishes a robust network connection, enabling seamless message exchange. The application leverages threading, to efficiently manage keyboard input, which ensures uninterrupted user interaction. This threading capability allows Cli-Me to handle large loads of traffic, making it suitable for the busiest chat rooms. Meticulous message encoding and decoding mechanisms guarantee the delivery of messages with clarity and accuracy across various platforms. With effective session management, users can personalize their experience by choosing customized usernames, to enhance recognition amongst friends. Cli-Me maintains operational integrity with its error handling capabilities. This helps it navigate complex communications scenarios with grace and reliability. Some examples can include duplicate credentials, packet loss and unexpected disconnections."
             buttons={[
               {title: 'Repo', weblink: 'https://github.com/dpolygon/climessaging'}
             ]}
@@ -57,7 +57,7 @@ export default function Projects() {
           <ProjectCell
             text='Poké-weather'
             icon={BsFillCloudRainFill}
-            desc="In its current state the app combines weather data retrieval with video display features. It uses the OpenWeatherMap API to fetch weather information based on the users' location. Poké-weather displays the current weather conditions in the users city. With OpenCV the video display feature shows a Pokemon that has the special power to transform its appearance to match surrounding weather conditions."
+            desc="In its current state the app combines weather data retrieval with video display features. It uses the OpenWeatherMap API to fetch weather information based on a user's city. Poké-weather displays the current weather conditions at the user's location. With OpenCV the video display feature shows a Pokemon that has the special power to transform its appearance to match surrounding weather conditions."
             buttons={[
               {title: 'Repo', weblink: 'https://github.com/dpolygon/poke-weather'}
             ]}
